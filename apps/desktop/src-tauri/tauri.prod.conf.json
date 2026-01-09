@@ -8,7 +8,7 @@
 	},
 	"plugins": {
 		"updater": {
-			"active": true,
+			"active": false,
 			"endpoints": [
 				"https://cdn.crabnebula.app/update/cap/cap/{{target}}-{{arch}}/{{current_version}}"
 			],
