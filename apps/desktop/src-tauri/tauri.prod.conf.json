@@ -6,11 +6,6 @@
 	"build": {
 		"beforeBundleCommand": "node scripts/prodBeforeBundle.js"
 	},
-	"plugins": {
-		"updater": {
-			"active": false
-		}
-	},
 	"bundle": {
 		"macOS": {
 			"entitlements": "Entitlements.plist"
